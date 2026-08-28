@@ -1,6 +1,6 @@
 # Swiss Windows Keyboard Layout for macOS
 
-This repository contains a custom keyboard layout configuration for macOS. It allows you to use the German (Switzerland) keyboard layout from Microsoft Windows systems on your Mac.
+This repository contains a custom keyboard layout configuration for macOS. It allows you to use the German (Switzerland) or French (Switzerland) keyboard layout from Microsoft Windows systems on your Mac.
 
 ## Installation and Usage
 
@@ -14,11 +14,17 @@ This repository contains a custom keyboard layout configuration for macOS. It al
     sudo cp CustomSwissGerman.* /Library/Keyboard\ Layouts
     ```
 
+    or
+
+    ```bash
+    sudo cp CustomSwissFrench.* /Library/Keyboard\ Layouts
+    ```
+
     You will need administrator privileges for this.
 
 3. **Activate the layout**
     - Open System Preferences → Keyboard → Input Sources.
-    - Click the plus sign (+) and select the new layout from the list.
+    - Click the plus sign (+), search for `Custom`, and select the new layout from the list.
     - Add the layout and make sure it is selected.
 
 4. **Restart your Mac**  
